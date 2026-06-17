@@ -1,10 +1,10 @@
-# 🛡️ Fraud Detection Framework — IEEE-CIS Dataset
+#  Fraud Detection Framework — IEEE-CIS Dataset
 
 > **End-to-end ML pipeline for financial fraud detection** with missing-value flag engineering, SMOTE, hyperparameter tuning, threshold optimization, and temporal validation. Achieved **ROC-AUC of 0.9107** and **F1-Score of 0.5402** on 590K+ real-world transactions.
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Stage | Model | Precision | Recall | F1-Score | ROC-AUC |
 |---|---|---|---|---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔑 Key Contributions
+##  Key Contributions
 
 - **Two-Version Framework** — compared pipelines with and without missing-value flags; flagged version consistently outperformed across recall and AUC
 - **Leakage-Free Pipeline** — imputation fitted on training data only; SMOTE applied to training set only; frequency encoding learned from training set only
@@ -25,7 +25,7 @@
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 fraud-detection/
@@ -49,7 +49,7 @@ fraud-detection/
 
 ---
 
-## 🔧 Pipeline Steps
+##  Pipeline Steps
 
 1. **Data Collection & Merging** — transaction + identity tables merged on `TransactionID` → 590,540 rows, 434 features
 2. **Missing Value Analysis** — categorized features by missingness rate (0%, 1–50%, 51–80%, 81–99%, 100%)
@@ -66,7 +66,7 @@ fraud-detection/
 
 ---
 
-## 📈 Temporal Evaluation
+##  Temporal Evaluation
 
 | Quartile | Period | Observation |
 |---|---|---|
@@ -77,7 +77,7 @@ fraud-detection/
 
 ---
 
-## 🚀 Running the Dashboard
+##  Running the Dashboard
 
 ```bash
 # Install dependencies
@@ -91,7 +91,7 @@ Make sure `data/` and `models/` folders are in the same directory as `dashboard.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Test labels unavailable — real-world deployment accuracy unmeasured
 - SMOTE generates synthetic minority points that may not reflect true fraud patterns
@@ -101,7 +101,7 @@ Make sure `data/` and `models/` folders are in the same directory as `dashboard.
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Autoencoders for unsupervised anomaly detection
 - Graph Neural Networks for detecting organized fraud rings
@@ -111,13 +111,13 @@ Make sure `data/` and `models/` folders are in the same directory as `dashboard.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 `Python` `LightGBM` `XGBoost` `Scikit-learn` `Pandas` `NumPy` `Streamlit` `Plotly` `imbalanced-learn`
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Farwa Irfan** — MS Data Science, FAST-NUCES Islamabad  
 [GitHub](https://github.com/farwairfan112-gif) · [LinkedIn](https://linkedin.com/in/farwairfan)
