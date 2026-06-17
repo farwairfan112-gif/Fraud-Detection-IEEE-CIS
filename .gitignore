@@ -1,0 +1,4 @@
+data/df_before.csv
+data/df_clean.csv
+data/df_train.csv
+models/rf_model_sm.pkl
