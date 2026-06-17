@@ -130,4 +130,4 @@ Download `train_transaction.csv` and `train_identity.csv`, place them in a `raw/
 ##  Author
 
 **Farwa Irfan** — MS Data Science, FAST-NUCES Islamabad  
-[GitHub](https://github.com/farwairfan112-gif) · [LinkedIn]([https://linkedin.com/in/farwairfan](https://www.linkedin.com/in/farwa-irfan-372141212/))
+[GitHub](https://github.com/farwairfan112-gif) · [LinkedIn](https://www.linkedin.com/in/farwa-irfan-372141212)
